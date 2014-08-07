@@ -1,0 +1,3 @@
+*.docx
+*.xlsx
+include/params.php
