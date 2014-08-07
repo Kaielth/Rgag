@@ -1,0 +1,7 @@
+::Cambios hechos::
+Router > Actualizar pagina al comentar
+Conectar y Conectarwol > Poner sha1 a la contraseña
+						 Quitar el sha1 de la session
+Crear cuenta > Poner sha1 a la contraseña
+				Usuario INACTIVO
+Params > Usar el usuario definitivo

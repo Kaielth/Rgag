@@ -1,0 +1,279 @@
+*{
+	margin: 0 auto;
+
+}
+
+body{
+	background-color: #F2F2F2;
+}
+
+#cabecera{
+	padding-top: 5px;
+	background: -webkit-radial-gradient(circle, white,lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, lightgray ,white, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, lightgray ,white, lightgray); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle,white, lightgray); /* Standard syntax (must be last) */
+	padding-bottom: 5px;
+	box-shadow: 0px 3px 10px black;
+}
+
+#log{
+	text-align: left;
+	border: solid 1px black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px; 
+	color: black;
+	background: rgb(76,76,76); /* Old browsers */
+	border: none;
+	height: auto;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(229,229,229,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 50%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 50%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 50%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	border-top:solid 2px black;
+	border-bottom:solid 2px black; 
+}
+#log input[type='text']:hover, #log input[type='password']:hover, 
+#registrarse input[type='text']:hover, #registrarse input[type='password']:hover, 
+#registrarse input[type='email']:hover, #registrarse input[type='number']:hover{
+	background-color: #C9F0FF;
+}
+#log input[type='text']{
+	height: 20px;
+}
+
+#log table, #registrarse table, #tabla{
+	float: left;
+	height: auto;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#tabla a{
+	text-decoration: none;
+	color: black;
+}
+
+#tabla tr{
+	border-bottom: solid 4px black;
+}
+#tabla td{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	padding-right: 5px; 
+	border-bottom: solid 2px black;
+}
+#tabla td:nth-child(1){
+	font-family: fantasy;
+}
+
+label{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#logeado{
+	
+    text-align: right;
+	background-color: #0355c6;
+	width: 100%;
+}
+
+#logeado a{
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: fantasy;
+	color: white;
+	padding-right:10px; 
+}
+#user:hover, #disconnected:hover{
+	color: salmon;
+}
+
+#registrarse{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: left;
+}
+
+#log input[type='submit'],#reg,#subir, #registrarse input[type='submit'], #mod{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 25px;
+	width: 80px;
+	outline: none;
+	border: none;
+	margin: 3px;
+	padding: 5px;
+	box-shadow: -1px -1px white, 1px 1px #333;
+	border-radius: 0px;
+	color:white;
+	background-color:darkgray; 
+}
+#mod{
+	width: 130px;
+}
+#registrarse input[type='submit']{
+	width: 100%;
+	font-family: fantasy;
+	font-size: 2em;
+	height: 50px;
+}
+#log input[type='submit']:hover,#reg:hover,#subir:hover,#registrarse input[type='submit']:hover,
+#mod:hover{
+	background-color: lightgray;
+	color: black;
+}
+
+#subir{
+	width: 150px;
+}
+
+option:hover{
+	background-color: #0355c6;
+}
+
+header{
+	text-align: center;
+	width: 100%;
+}
+nav{
+	text-align: center;
+}
+
+
+nav a:nth-child(3), nav a:nth-child(4),nav a:nth-child(5),nav a:nth-child(6),nav a:nth-child(7),nav a:nth-child(8),nav a:nth-child(9),nav a:nth-child(10),nav a:nth-child(11),nav a:nth-child(12),nav a:nth-child(13),nav a:nth-child(14){
+	text-decoration: none;
+	color: black;
+	border-right: solid 3px black;
+	padding-right: 15px;
+	margin: 0 auto;
+	margin-right: 10px;
+	font-family: fantasy;
+	font-size: 2em;
+}
+nav a:hover{
+	color:#00c4ff;
+}
+
+#central{
+	position: relative;
+	z-index: -1;
+	padding-top: 25px;
+   	background-color: #F2F2F2;
+	
+}
+#contenido, #contaux{
+	float: left;
+
+}
+#contenido{
+	width: 60%;
+	background-color: #F2F2F2;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#contaux{
+	width: 28%;
+	padding-left: 2%;
+	background-color: darkgray;
+	margin: 0 auto;
+}
+
+.comentarios{
+	text-decoration: none;
+	color:#00c4ff;
+}
+.comentarios:hover{
+	color:#85F516;
+}
+
+#titulo{
+	font-family: fantasy;
+	font-size: 3em;
+}
+#fecha{
+	float: right;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size: 15px;
+	
+}
+.imagen, #aprobar, #sobornar,#desaprobar{
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	border: none;
+	outline: none;
+	background-color:#F2F2F2;
+	font-family: fantasy;
+	font-size: 25px;
+	margin-right: 5px;
+	border: solid 1px black;
+	text-shadow:  2px 2px 2px black;
+}
+.imagen:hover, #aprobar:hover, #sobornar:hover,#desaprobar:hover{
+	font-size: 35px;
+	box-shadow:  2px 2px 2px black;
+}
+#positivo{
+	color: #B0FF4F;
+}
+#negativo{
+ 	color: #FF4F4F;
+}
+#borrar{
+	width: 100px;
+}
+#aprobar, #sobornar,#desaprobar{
+	width: 150px;
+}
+
+hr{
+	box-shadow: 1px 1px 1px black;
+	margin-bottom: 5px;
+}
+footer{
+	font-family: monospace;
+	font-size: 1em;
+	border-top: solid 2px black; 
+	clear: left;
+	color: white;
+	text-align: center;
+	background-color: darkgray;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+
+.dilbert-container {
+float:right;
+}
+
+.dilbert-overlay:hover {
+-webkit-animation: spin 0.7s infinite linear;
+-moz-animation: spin 0.7s infinite linear;
+-o-animation: spin 0.7s infinite linear;
+-ms-animation: spin 0.7s infinite linear;
+}
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+0% { -moz-transform: rotate(0deg);}
+100% { -moz-transform: rotate(360deg);}
+}
+@-o-keyframes spin {
+0% { -o-transform: rotate(0deg);}
+100% { -o-transform: rotate(360deg);}
+}
+@-ms-keyframes spin {
+0% { -ms-transform: rotate(0deg);}
+100% { -ms-transform: rotate(360deg);}
+}
